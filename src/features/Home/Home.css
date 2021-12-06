@@ -1,0 +1,58 @@
+.error {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error button {
+  color: var(--color-text-invert);
+  background: var(--color-branding);
+  border: none;
+  border-radius: var(--radius);
+  font-size: 1rem;
+  padding: var(--spacing-2) var(--spacing-4);
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+input[type='text'] {
+  font-size: 1.25em;
+  border: 1px solid #000080;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+}
+
+.headingText {
+  background-color: var(--light-khaki);
+}
+
+.topic {
+  color: crimson;
+}
+
+nav button {
+  width: 99%;
+  height: 150px;
+  cursor: pointer;
+  background-image: url("../../images/search.png");
+  background-size: contain;
+  border: 2px solid var(--color-branding);
+  border-radius: 5px;
+  margin-top: 15px;
+  font-size: 2em;
+}
+
+nav button span {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+nav button:hover {
+  font-size: 2.25em;
+}

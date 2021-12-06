@@ -1,0 +1,125 @@
+.subreddit-card {
+  padding-right: var(--spacing-2);
+  width: 99%;
+  border: 2px solid #000080;
+  box-sizing: border-box;
+  background: lightgray;
+}
+
+.subreddit-card h2 {
+  margin-top: 0;
+  color: black;
+  text-align: center;
+}
+
+.subreddit-card h2 span {
+  background-color: var(--light-khaki);
+}
+
+.subreddit-card button {
+  background: #faf7dc;
+  border: 1px solid #000080;
+  display: flex;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  width: 300px;
+  height: 100px;
+  padding: var(--spacing-2);
+  border-radius: var(--radius);
+  margin: 3px;
+  font-size: 1.25em;
+  font-family: 'Times New Roman', serif;
+  text-align: center;
+}
+
+.selected-subreddit button {
+  color: var(--color-branding) !important;
+}
+
+.selected-subreddit {
+  border-left: 5px solid var(--color-branding);
+  background: var(--color-branding-transparent);
+}
+
+.subreddit-card button:hover {
+  background: salmon;
+}
+
+button.topic1, button.topic2, button.topic3, button.topic4, button.topic5, button.topic6 {
+  color: white;
+  font-weight: bold;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.selected-subreddit button.topic1, .selected-subreddit button.topic2, .selected-subreddit button.topic3, .selected-subreddit button.topic4, .selected-subreddit button.topic5, .selected-subreddit button.topic6 {
+  background-image: none;
+  justify-content: center;
+  align-items: center;
+}
+
+button.topic1 {
+  background-image: url("../../images/coding.png");
+}
+
+button.topic2 {
+  background-image: url("../../images/conspiracy.png");
+}
+
+button.topic3 {
+  background-image: url("../../images/coronavirus.png");
+}
+
+button.topic4 {
+  background-image: url("../../images/darwin.png");
+}
+
+button.topic5 {
+  background-image: url("../../images/religion.png");
+}
+
+button.topic6 {
+  background-image: url("../../images/soccer.png");
+}
+
+button span {
+  background-color: black;
+}
+
+.selected-subreddit button.topic1 span, .selected-subreddit button.topic2 span, .selected-subreddit button.topic3 span, .selected-subreddit button.topic4 span, .selected-subreddit button.topic5 span, .selected-subreddit button.topic6 span {
+  background-color: var(--light-khaki);
+}
+
+button.topic1:hover, button.topic2:hover, button.topic3:hover, button.topic4:hover, button.topic5:hover, button.topic6:hover {
+  background-image: none;
+  color: white;
+}
+
+.subreddits-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.subreddit-icon {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  margin-right: var(--spacing-1);
+}
+
+button.blockDisplay {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+}
+
+button.blockDisplay span {
+  color: crimson;
+  background-color: var(--light-khaki);
+}

@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: arial, verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  padding-left: var(--spacing-2);
+}
+
+a {
+  color: var(--color-text-link);
+}
+
+header {
+  display: block;
+  text-align: center;
+}
