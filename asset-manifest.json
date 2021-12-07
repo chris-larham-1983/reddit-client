@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/reddit-client/static/css/main.c8402964.chunk.css",
+    "main.js": "/reddit-client/static/js/main.fd3eded5.chunk.js",
+    "main.js.map": "/reddit-client/static/js/main.fd3eded5.chunk.js.map",
+    "runtime-main.js": "/reddit-client/static/js/runtime-main.5a52a129.js",
+    "runtime-main.js.map": "/reddit-client/static/js/runtime-main.5a52a129.js.map",
+    "static/js/2.b5ad368a.chunk.js": "/reddit-client/static/js/2.b5ad368a.chunk.js",
+    "static/js/2.b5ad368a.chunk.js.map": "/reddit-client/static/js/2.b5ad368a.chunk.js.map",
+    "index.html": "/reddit-client/index.html",
+    "precache-manifest.5dc3ab46e2446a972794ef8fcaef6eae.js": "/reddit-client/precache-manifest.5dc3ab46e2446a972794ef8fcaef6eae.js",
+    "service-worker.js": "/reddit-client/service-worker.js",
+    "static/css/main.c8402964.chunk.css.map": "/reddit-client/static/css/main.c8402964.chunk.css.map",
+    "static/js/2.b5ad368a.chunk.js.LICENSE.txt": "/reddit-client/static/js/2.b5ad368a.chunk.js.LICENSE.txt",
+    "static/media/Subreddits.css": "/reddit-client/static/media/soccer.10517fb2.png",
+    "static/media/Home.css": "/reddit-client/static/media/search.51e46615.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5a52a129.js",
+    "static/js/2.b5ad368a.chunk.js",
+    "static/css/main.c8402964.chunk.css",
+    "static/js/main.fd3eded5.chunk.js"
+  ]
+}
