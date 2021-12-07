@@ -1,68 +1,88 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# Table of Contents
 
-## Available Scripts
+* [General Information](#general-information)
+* [Project Structure](#project-structure)
+* [Wireframe](#wireframe)
+* [Technologies](#technologies)
+* [Using the App](#using-the-app)
 
-In the project directory, you can run:
+***
 
-### `npm start`
+## General Information
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This is my solution to the **Codecademy** portfolio project entitled *Reddit Client*, wherein I had to design 
+a **React App** that allows users to navigate to topics of interest provided by the Reddit JSON API.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+The app had to satisfy the following requirements:
 
-### `npm test`
+- be built using React and Redux
+- be hosted on GitHub
+- include a README that documents the project
+- include unit tests
+- include end-to-end tests
+- scale well across devices of differing screen size
+- work well across different browsers
+- accessible at a URL
+- Users see an initial view of the data when visiting the app
+- Users can search the data using terms
+- Users can filter the data based on predefined categories
+- include a cohesive design system
+- include animations and transitions
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I also chose six topics of interest in addition to those provided by the Reddit JSON API - and designed custom 
+navigation buttons for them - in order to give the User a wider selection of interesting threads. I practised 
+GitHub skills by opening two 'issues' with my initial upload, defining 'milestones' for issue completion, and 
+then closing out the issues.
 
-### `npm run build`
+Another criterion for this project was that the app should achieve scores of 90+ on Lighthouse (https://web.dev/measure/). 
+This project achieved scores of 100 (**Best Practices**), 98 (**Accessibility**), 92 (**SEO**), and 65 (**Performance**). 
+The *Performance* score was lower because of the format of the images returned by the Reddit JSON API - the report 
+suggested that WebP and AVIF image formats should be used, rather than the PNG images served by the API. Obviously this is 
+something that I do not control.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Lighthouse Audit][lighthouse_audit]
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+[lighthouse_audit]: src/images/lighthouse-audit.PNG
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+***
 
-### `npm run eject`
+## Project Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![Project Structure][project_structure]
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[project_structure]: src/images/reddit-client-structure.png
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+***
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Wireframe
 
-## Learn More
+![Wireframe][wireframe]
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[wireframe]: src/images/reddit-client-wireframe.png
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+***
 
-### Code Splitting
+## Technologies
+  
+I wrote this **React App** using the following technologies:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+- *ReactJS*
+- *JSX*
+- *Redux*
+- *HTML*
+- *CSS*
+- *JavaScript*
+- *Jest*
+- *Git and GitHub*
+- *Command line and file navigation*
+- *Wireframing*
+  
+***
 
-### Analyzing the Bundle Size
+## Using the App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+This app can be viewed and used at:
 
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- https://codecademy-reddit-client.surge.sh
+- https://codecademy-reddit-client.netlify.app
+- https://chris-larham-1983.github.io/reddit-client/
