@@ -84,5 +84,4 @@ I wrote this **React App** using the following technologies:
 This app can be viewed and used at:
 
 - https://codecademy-reddit-client.surge.sh
-- https://codecademy-reddit-client.netlify.app
 - https://chris-larham-1983.github.io/reddit-client/
