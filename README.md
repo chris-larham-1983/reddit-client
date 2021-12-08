@@ -4,6 +4,7 @@
 * [Project Structure](#project-structure)
 * [Wireframe](#wireframe)
 * [Technologies](#technologies)
+* [Unit Test Results](#unit-test-results)
 * [Using the App](#using-the-app)
 
 ***
@@ -19,7 +20,6 @@ The app had to satisfy the following requirements:
 - be hosted on GitHub
 - include a README that documents the project
 - include unit tests
-- include end-to-end tests
 - scale well across devices of differing screen size
 - work well across different browsers
 - accessible at a URL
@@ -77,6 +77,18 @@ I wrote this **React App** using the following technologies:
 - *Command line and file navigation*
 - *Wireframing*
   
+***
+
+## Unit Test Results
+
+![Unit Test Results 1 of 2][unit_test_results_1_of_2]
+
+[unit_test_results_1_of_2]: src/images/redditSlice-unit-tests.PNG
+
+![Unit Test Results 2 of 2][unit_test_results_2_of_2]
+
+[unit_test_results_2_of_2]: src/images/subredditSlice-unit-tests.PNG
+
 ***
 
 ## Using the App
