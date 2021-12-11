@@ -25,6 +25,12 @@ const Home = () => {
     }
   }, [selectedSubreddit]);
 
+  useEffect(() => { //whenever the 'posts' array changes, there is no error in state, and there is one or more posts in state, scroll the 'View Popular Subreddits' <button> into view
+      if(!error && posts.length !== 0) {
+          document.getElementsByTagName("BUTTON")[0].scrollIntoView();
+      }
+  }, [posts]);
+
   const onToggleComments = (index) => {
       return (permalink) => {
           dispatch(fetchComments(index, permalink));
