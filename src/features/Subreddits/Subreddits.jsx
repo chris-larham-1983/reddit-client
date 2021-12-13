@@ -23,7 +23,7 @@ const Subreddits = () => {
         <button
             className='blockDisplay'
             onClick={()=> {
-                document.getElementsByTagName("H1")[0].scrollIntoView();
+                document.getElementsByTagName("BUTTON")[0].scrollIntoView();
             }}>View Posts for <span>{selectedSubreddit}</span></button>
       <ul className="subreddits-list">
         {subreddits.map((subreddit) => (

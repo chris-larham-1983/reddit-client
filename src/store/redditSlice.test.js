@@ -1,3 +1,4 @@
+import configureStore from 'redux-mock-store';
 import redditReducer, {
     selectPosts,
     selectFilteredPosts,
@@ -14,7 +15,7 @@ import redditReducer, {
     getCommentsSuccess,
     getCommentsFailed,
 } from './redditSlice';
-import configureStore from 'redux-mock-store';
+
 
 const mockStore = configureStore([]);
 

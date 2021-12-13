@@ -23,7 +23,6 @@ const redditSlice = createSlice({
     getPostsSuccess(state, action) {
       state.isLoading = false;
       state.posts = action.payload;
-      document.getElementsByTagName("H2")[0].scrollIntoView(true);
     },
     getPostsFailed(state) {
       state.isLoading = false;
@@ -69,6 +68,8 @@ export const {
   getCommentsFailed,
   getCommentsSuccess,
   startGetComments,
+  setPosts,
+  toggleShowingComments,
 } = redditSlice.actions;
 
 export default redditSlice.reducer;
@@ -101,8 +102,8 @@ export const fetchComments = (index, permalink) => async (dispatch) => {
   }
 };
 
-const selectPosts = (state) => state.reddit.posts;
-const selectSearchTerm = (state) => state.reddit.searchTerm;
+export const selectPosts = (state) => state.reddit.posts;
+export const selectSearchTerm = (state) => state.reddit.searchTerm;
 export const selectSelectedSubreddit = (state) =>
   state.reddit.selectedSubreddit;
 

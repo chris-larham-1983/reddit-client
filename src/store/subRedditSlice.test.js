@@ -1,5 +1,5 @@
-import subredditReducer, { startGetSubreddits, getSubredditsSuccess, getSubredditsFailed, selectSubreddits } from './subRedditSlice';
 import configureStore from 'redux-mock-store';
+import subredditReducer, { startGetSubreddits, getSubredditsSuccess, getSubredditsFailed, selectSubreddits } from './subRedditSlice';
 
 const mockStore = configureStore([]);
 

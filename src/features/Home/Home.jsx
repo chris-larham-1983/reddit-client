@@ -29,7 +29,7 @@ const Home = () => {
       if(!error && posts.length !== 0) {
           document.getElementsByTagName("BUTTON")[0].scrollIntoView();
       }
-  }, [posts]);
+  }, [selectedSubreddit, posts.length]);
 
   const onToggleComments = (index) => {
       return (permalink) => {
