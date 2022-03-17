@@ -56,9 +56,17 @@ something that I do not control.
 
 ## Wireframe
 
+Drawn by hand:
+
 ![Wireframe][wireframe]
 
 [wireframe]: src/images/reddit-client-wireframe.png
+
+Created using the InVision wireframing app:
+
+![Wireframe created using the InVision app][invision]
+
+[invision]: src/images/Reddit Client Wireframe.PNG
 
 ***
 
