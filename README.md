@@ -66,7 +66,7 @@ Created using the InVision wireframing app:
 
 ![Wireframe created using the InVision app][invision]
 
-[invision]: src/images/Reddit Client Wireframe.PNG
+[invision]: "src/images/Reddit Client Wireframe.PNG"
 
 ***
 
