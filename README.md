@@ -64,9 +64,9 @@ Drawn by hand:
 
 Created using the InVision wireframing app:
 
-![Wireframe created using the InVision app][invision]
+![WireframeII][wireframeII]
 
-[invision]: src/images/Reddit Client Wireframe.png
+[wireframeII]: src/images/reddit_client_wireframe.png
 
 ***
 
